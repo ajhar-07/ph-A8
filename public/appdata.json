@@ -1,0 +1,273 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a3",
+    "title": "Productivity Booster",
+    "companyName": "FocusTech",
+    "description": "A lightweight productivity tool designed to keep you focused.",
+    "size": 42,
+    "reviews": 245,
+    "ratingAvg": 4.6,
+    "downloads": 15800,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 22 },
+      { "name": "3 star", "count": 56 },
+      { "name": "4 star", "count": 74 },
+      { "name": "5 star", "count": 81 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1581091012184-5c8af776b10c",
+    "title": "Creative Studio",
+    "companyName": "Artify Labs",
+    "description": "An advanced graphic design suite with AI-powered tools.",
+    "size": 88,
+    "reviews": 389,
+    "ratingAvg": 4.8,
+    "downloads": 20900,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 18 },
+      { "name": "3 star", "count": 40 },
+      { "name": "4 star", "count": 89 },
+      { "name": "5 star", "count": 232 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1612832021377-5a1c96c6f9d4",
+    "title": "Finance Tracker",
+    "companyName": "MoneyMate",
+    "description": "Smart expense tracking and budgeting tool for personal use.",
+    "size": 30,
+    "reviews": 175,
+    "ratingAvg": 4.3,
+    "downloads": 12500,
+    "ratings": [
+      { "name": "1 star", "count": 9 },
+      { "name": "2 star", "count": 15 },
+      { "name": "3 star", "count": 42 },
+      { "name": "4 star", "count": 58 },
+      { "name": "5 star", "count": 51 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1618354691438-25bc0f8a15af",
+    "title": "WeatherWise",
+    "companyName": "SkyNetix",
+    "description": "Accurate weather forecasts and live radar tracking app.",
+    "size": 55,
+    "reviews": 320,
+    "ratingAvg": 4.7,
+    "downloads": 43000,
+    "ratings": [
+      { "name": "1 star", "count": 18 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 44 },
+      { "name": "4 star", "count": 92 },
+      { "name": "5 star", "count": 142 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1604147706283-d8d4b6b9efc3",
+    "title": "TravelMate",
+    "companyName": "GlobeWay",
+    "description": "Your AI-powered travel assistant for perfect trips.",
+    "size": 61,
+    "reviews": 276,
+    "ratingAvg": 4.5,
+    "downloads": 22100,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 27 },
+      { "name": "3 star", "count": 63 },
+      { "name": "4 star", "count": 78 },
+      { "name": "5 star", "count": 94 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "title": "MusicFlow",
+    "companyName": "SoundGrid",
+    "description": "Stream, download and share your favorite songs instantly.",
+    "size": 50,
+    "reviews": 510,
+    "ratingAvg": 4.4,
+    "downloads": 67000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 92 },
+      { "name": "4 star", "count": 156 },
+      { "name": "5 star", "count": 187 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.unsplash.com/photo-1610564554933-98b1b75c1af1",
+    "title": "TaskManager Pro",
+    "companyName": "Planify",
+    "description": "Collaborate, plan and execute your daily tasks efficiently.",
+    "size": 47,
+    "reviews": 228,
+    "ratingAvg": 4.2,
+    "downloads": 19200,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 28 },
+      { "name": "3 star", "count": 48 },
+      { "name": "4 star", "count": 76 },
+      { "name": "5 star", "count": 61 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://images.unsplash.com/photo-1607083206863-e4d0a96e5b92",
+    "title": "PhotoLens",
+    "companyName": "SnapEra",
+    "description": "Edit, enhance and share stunning photos instantly.",
+    "size": 68,
+    "reviews": 403,
+    "ratingAvg": 4.6,
+    "downloads": 53400,
+    "ratings": [
+      { "name": "1 star", "count": 24 },
+      { "name": "2 star", "count": 32 },
+      { "name": "3 star", "count": 67 },
+      { "name": "4 star", "count": 112 },
+      { "name": "5 star", "count": 168 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "title": "TeamHub",
+    "companyName": "CollabSuite",
+    "description": "Seamless team communication and task management app.",
+    "size": 59,
+    "reviews": 310,
+    "ratingAvg": 4.3,
+    "downloads": 28900,
+    "ratings": [
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 29 },
+      { "name": "3 star", "count": 54 },
+      { "name": "4 star", "count": 98 },
+      { "name": "5 star", "count": 107 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "FitTrack",
+    "companyName": "Healthify",
+    "description": "Track your workouts, meals and progress in one place.",
+    "size": 53,
+    "reviews": 356,
+    "ratingAvg": 4.7,
+    "downloads": 39800,
+    "ratings": [
+      { "name": "1 star", "count": 16 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 44 },
+      { "name": "4 star", "count": 106 },
+      { "name": "5 star", "count": 166 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://images.unsplash.com/photo-1606761568499-6e0e9b4c33b2",
+    "title": "LearnMate",
+    "companyName": "EduCore",
+    "description": "Interactive e-learning platform with courses and quizzes.",
+    "size": 70,
+    "reviews": 489,
+    "ratingAvg": 4.8,
+    "downloads": 48200,
+    "ratings": [
+      { "name": "1 star", "count": 14 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 48 },
+      { "name": "4 star", "count": 106 },
+      { "name": "5 star", "count": 301 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://images.unsplash.com/photo-1551817958-20204d6ab80c",
+    "title": "RecipeBook",
+    "companyName": "Kitchenify",
+    "description": "Explore, save and share your favorite recipes with ease.",
+    "size": 45,
+    "reviews": 276,
+    "ratingAvg": 4.4,
+    "downloads": 21800,
+    "ratings": [
+      { "name": "1 star", "count": 12 },
+      { "name": "2 star", "count": 24 },
+      { "name": "3 star", "count": 55 },
+      { "name": "4 star", "count": 78 },
+      { "name": "5 star", "count": 107 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://images.unsplash.com/photo-1612831455543-43b6c7c4a3ee",
+    "title": "GameSphere",
+    "companyName": "PixelPlay",
+    "description": "Discover and play the latest trending mobile games.",
+    "size": 82,
+    "reviews": 520,
+    "ratingAvg": 4.5,
+    "downloads": 60300,
+    "ratings": [
+      { "name": "1 star", "count": 28 },
+      { "name": "2 star", "count": 38 },
+      { "name": "3 star", "count": 78 },
+      { "name": "4 star", "count": 142 },
+      { "name": "5 star", "count": 234 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    "title": "DocuVault",
+    "companyName": "SecureFiles",
+    "description": "Store, manage, and share your files securely in the cloud.",
+    "size": 95,
+    "reviews": 490,
+    "ratingAvg": 4.6,
+    "downloads": 71200,
+    "ratings": [
+      { "name": "1 star", "count": 26 },
+      { "name": "2 star", "count": 33 },
+      { "name": "3 star", "count": 72 },
+      { "name": "4 star", "count": 138 },
+      { "name": "5 star", "count": 221 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "title": "NoteSync",
+    "companyName": "WriteOn",
+    "description": "Sync your notes and ideas across all devices seamlessly.",
+    "size": 38,
+    "reviews": 208,
+    "ratingAvg": 4.2,
+    "downloads": 18200,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 19 },
+      { "name": "3 star", "count": 46 },
+      { "name": "4 star", "count": 68 },
+      { "name": "5 star", "count": 65 }
+    ]
+  }
+ 
+]
