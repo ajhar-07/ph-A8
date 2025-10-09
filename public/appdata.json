@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1590608897129-79da98d159a3",
+    "image": "https://cdn-icons-png.flaticon.com/512/3208/3208712.png",
     "title": "Productivity Booster",
     "companyName": "FocusTech",
     "description": "A lightweight productivity tool designed to keep you focused.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1581091012184-5c8af776b10c",
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920277.png",
     "title": "Creative Studio",
     "companyName": "Artify Labs",
     "description": "An advanced graphic design suite with AI-powered tools.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1612832021377-5a1c96c6f9d4",
+    "image": "https://cdn-icons-png.flaticon.com/512/263/263115.png",
     "title": "Finance Tracker",
     "companyName": "MoneyMate",
     "description": "Smart expense tracking and budgeting tool for personal use.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1618354691438-25bc0f8a15af",
+    "image": "https://cdn-icons-png.flaticon.com/512/4052/4052984.png",
     "title": "WeatherWise",
     "companyName": "SkyNetix",
     "description": "Accurate weather forecasts and live radar tracking app.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1604147706283-d8d4b6b9efc3",
+    "image": "https://cdn-icons-png.flaticon.com/512/854/854878.png",
     "title": "TravelMate",
     "companyName": "GlobeWay",
     "description": "Your AI-powered travel assistant for perfect trips.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "image": "https://cdn-icons-png.flaticon.com/512/727/727218.png",
     "title": "MusicFlow",
     "companyName": "SoundGrid",
     "description": "Stream, download and share your favorite songs instantly.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://images.unsplash.com/photo-1610564554933-98b1b75c1af1",
+    "image": "https://cdn-icons-png.flaticon.com/512/3209/3209265.png",
     "title": "TaskManager Pro",
     "companyName": "Planify",
     "description": "Collaborate, plan and execute your daily tasks efficiently.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://images.unsplash.com/photo-1607083206863-e4d0a96e5b92",
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920049.png",
     "title": "PhotoLens",
     "companyName": "SnapEra",
     "description": "Edit, enhance and share stunning photos instantly.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "image": "https://cdn-icons-png.flaticon.com/512/906/906349.png",
     "title": "TeamHub",
     "companyName": "CollabSuite",
     "description": "Seamless team communication and task management app.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "image": "https://cdn-icons-png.flaticon.com/512/942/942799.png",
     "title": "FitTrack",
     "companyName": "Healthify",
     "description": "Track your workouts, meals and progress in one place.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://images.unsplash.com/photo-1606761568499-6e0e9b4c33b2",
+    "image": "https://cdn-icons-png.flaticon.com/512/2921/2921822.png",
     "title": "LearnMate",
     "companyName": "EduCore",
     "description": "Interactive e-learning platform with courses and quizzes.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://images.unsplash.com/photo-1551817958-20204d6ab80c",
+    "image": "https://cdn-icons-png.flaticon.com/512/857/857681.png",
     "title": "RecipeBook",
     "companyName": "Kitchenify",
     "description": "Explore, save and share your favorite recipes with ease.",
@@ -217,7 +217,7 @@
   },
   {
     "id": 13,
-    "image": "https://images.unsplash.com/photo-1612831455543-43b6c7c4a3ee",
+    "image": "https://cdn-icons-png.flaticon.com/512/1047/1047711.png",
     "title": "GameSphere",
     "companyName": "PixelPlay",
     "description": "Discover and play the latest trending mobile games.",
@@ -235,7 +235,7 @@
   },
   {
     "id": 14,
-    "image": "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7",
+    "image": "https://cdn-icons-png.flaticon.com/512/545/545682.png",
     "title": "DocuVault",
     "companyName": "SecureFiles",
     "description": "Store, manage, and share your files securely in the cloud.",
@@ -253,7 +253,7 @@
   },
   {
     "id": 15,
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "image": "https://cdn-icons-png.flaticon.com/512/1041/1041916.png",
     "title": "NoteSync",
     "companyName": "WriteOn",
     "description": "Sync your notes and ideas across all devices seamlessly.",
@@ -269,5 +269,4 @@
       { "name": "5 star", "count": 65 }
     ]
   }
- 
 ]

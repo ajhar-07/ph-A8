@@ -1,17 +1,19 @@
 import React from 'react';
 import { BiDownload, BiStar } from 'react-icons/bi';
+import { Link } from 'react-router';
 
 const Allapps = ({App}) => {
     console.log(App);
     
     return (
-        <div className="w-[300px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300">
+       <Link to={`/apps/${App.id}`}>
+        <div className="md:w-[280px] w-[350px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 ">
              {/* Image Section */}
-             <div className="w-full h-[180px] flex items-center justify-center bg-gray-100">
+             <div className="w-[90%] h-[180px] flex items-center justify-center ">
                <img
-                 src=""
+                 src={App.image}
                  alt={App.title}
-                 className="w-[90px] h-[90px] object-cover rounded-xl shadow-sm"
+                 className="w-[90%] h-[170px] object-cover rounded-xl shadow-sm"
                />
              </div>
        
@@ -34,6 +36,7 @@ const Allapps = ({App}) => {
                </div>
              </div>
            </div>
+       </Link>
     );
 };
 
