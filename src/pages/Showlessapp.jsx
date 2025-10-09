@@ -4,7 +4,7 @@ import { BiDownload, BiStar } from 'react-icons/bi';
 const Showlessapp = ({App}) => {
     return (
         <div className="w-[300px] bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300">
-      {/* Image Section */}
+      
       <div className="w-full h-[180px] flex items-center justify-center bg-gray-100">
         <img
           src={App.image}
@@ -13,7 +13,7 @@ const Showlessapp = ({App}) => {
         />
       </div>
 
-      {/* Title */}
+  
       <div className="px-4 py-3">
         <h3 className="text-sm font-semibold text-gray-800 text-center line-clamp-1">
           {App.title}

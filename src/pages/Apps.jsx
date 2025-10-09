@@ -10,14 +10,14 @@ const Apps = () => {
   const [isSearching, setIsSearching] = useState(false);
   const [filteredApps, setFilteredApps] = useState(Apps);
 
-  // 🔹 Handle Search Input
+  
   const handleSearch = (e) => {
     const value = e.target.value;
     setSearch(value);
     setIsSearching(true);
   };
 
-  // 🔹 Debounce Search Logic
+  
   useEffect(() => {
     const delay = setTimeout(() => {
       const term = search.trim().toLowerCase();
