@@ -26,12 +26,12 @@ const Apps = () => {
         : Apps;
       setFilteredApps(results);
       setIsSearching(false);
-    }, 600); // 0.6 second delay
+    }, 600); 
 
     return () => clearTimeout(delay);
   }, [search, Apps]);
 
-  // 🔹 Show global loader (from API)
+  
   if (loading)
     return (
       <div className="my-40 flex flex-col items-center justify-center">
@@ -41,7 +41,7 @@ const Apps = () => {
 
   return (
     <div className="w-11/12 mx-auto px-4">
-      {/* Header */}
+    
       <div className="text-center">
         <h1 className="text-3xl font-bold pt-7">Our All Applications</h1>
         <p className="py-3">
@@ -50,7 +50,7 @@ const Apps = () => {
         
       </div>
 
-      {/* Search + Count */}
+
       <div className="flex flex-col md:flex-row justify-between items-center my-5 flex-wrap gap-3">
         <h1 className="text-lg font-bold">
           ({filteredApps?.length || 0}) Apps Found
@@ -70,13 +70,13 @@ const Apps = () => {
         </div>
     
       </div>
-{/* 🔹 Show spinner while typing */}
+
           {isSearching && (
             <div className="my-40 flex flex-col items-center justify-center">
         <span className="loading loading-spinner text-error"></span>
       </div>
           )}
-      {/* Not Found */}
+    
       {filteredApps.length === 0 ? (
         <div className="flex flex-col items-center justify-center my-10">
           <img src={notfound} alt="Not found" />
@@ -87,7 +87,7 @@ const Apps = () => {
           </Link>
         </div>
       ) : (
-        // Show Apps Grid
+      
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 my-5 justify-items-center">
           {filteredApps.map((App) => (

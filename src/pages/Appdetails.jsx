@@ -19,7 +19,7 @@ import { LuTriangleAlert } from 'react-icons/lu';
 const Appdetails = () => {
   const { id } = useParams();
   const { Apps, loading, error } = useApps();
-  const [isInstalled, setIsInstalled] = useState(false); // ✅ new state
+  const [isInstalled, setIsInstalled] = useState(false);
 
   if (loading)
     return (
@@ -29,11 +29,16 @@ const Appdetails = () => {
     );
 
   const App = Apps.find((p) => String(p.id) === id);
-  if (!App) return <p className='text-center flex flex-col items-center justify-center my-20 font-bold text-4xl'><LuTriangleAlert size={68} color="#e21d1d" />App not found</p>;
+  if (!App)
+    return (
+      <p className="text-center flex flex-col items-center justify-center my-20 font-bold text-4xl">
+        <LuTriangleAlert size={68} color="#e21d1d" />
+        App not found
+      </p>
+    );
 
   const handleawishlist = () => {
     toast("App Installed Successfully");
-
     const existinglist = JSON.parse(localStorage.getItem('wishlist'));
     let updatelist = [];
 
@@ -50,13 +55,12 @@ const Appdetails = () => {
     }
 
     localStorage.setItem('wishlist', JSON.stringify(updatelist));
-
-    setIsInstalled(true); // ✅ disable the button after click
+    setIsInstalled(true);
   };
 
   return (
-    <div className='mx-auto w-11/12'>
-      <div className="mx-auto  p-4 bg-white shadow-lg rounded-lg border border-gray-200 w-full my-5">
+    <div className="mx-auto w-11/12">
+      <div className="mx-auto p-4 bg-white shadow-lg rounded-lg border border-gray-200 w-full my-5">
         <div className="flex items-start space-x-4">
           <div className="flex-shrink-0 w-24 h-24 p-2 bg-blue-50 rounded-xl flex items-center justify-center">
             <img
@@ -75,7 +79,6 @@ const Appdetails = () => {
               </span>
             </p>
 
-            {/* Stats Section */}
             <div className="flex justify-start space-x-6 mt-4 mb-4">
               <div className="flex flex-col items-center">
                 <div className="flex items-center text-green-600">
@@ -140,16 +143,14 @@ const Appdetails = () => {
               </div>
             </div>
 
-            {/* ✅ Button disabled after install */}
             <button
               onClick={handleawishlist}
               disabled={isInstalled}
-              className={`w-auto px-6 py-2 font-semibold rounded-lg shadow-md transition duration-150 ease-in-out
-                ${
-                  isInstalled
-                    ? 'bg-green-700 text-white'
-                    : 'bg-green-500 hover:bg-green-600 text-white'
-                }`}
+              className={`w-auto px-6 py-2 font-semibold rounded-lg shadow-md transition duration-150 ease-in-out ${
+                isInstalled
+                  ? 'bg-green-700 text-white'
+                  : 'bg-green-500 hover:bg-green-600 text-white'
+              }`}
             >
               {isInstalled ? 'Installed' : 'Install Now'}{' '}
               {!isInstalled && (
@@ -159,8 +160,6 @@ const Appdetails = () => {
           </div>
         </div>
       </div>
-
-      {/* Ratings Chart */}
       <div className="space-y-3 mt-10">
         <h3 className="text-2xl font-bold">Rating Summary</h3>
         <div className="bg-base-100 border p-4 h-80">
@@ -188,7 +187,6 @@ const Appdetails = () => {
         </div>
       </div>
 
-      {/* Description */}
       <div className="my-10">
         <h1 className="text-3xl font-bold pb-3">Description</h1>
         <p>{App.description}</p>

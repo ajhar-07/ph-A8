@@ -4,15 +4,15 @@ import { ToastContainer, toast } from 'react-toastify';
 const Installation = () => {
   const [sortorder, setSortorder] = useState('none');
   const [wishlist, setWishlist] = useState([]);
-  const [isSearching, setIsSearching] = useState(true); // 🔹 Start with loading spinner
+  const [isSearching, setIsSearching] = useState(true); 
 
   useEffect(() => {
-    // Simulate loading when navigating to this page
+  
     const timer = setTimeout(() => {
       const savelist = JSON.parse(localStorage.getItem('wishlist'));
       if (savelist) setWishlist(savelist);
       setIsSearching(false);
-    }, 800); // Spinner shows for 0.8s (adjust if needed)
+    }, 800); 
 
     return () => clearTimeout(timer);
   }, []);
@@ -35,7 +35,6 @@ const Installation = () => {
     localStorage.setItem('wishlist', JSON.stringify(updatelist));
   };
 
-  // 🔹 Show spinner when entering Installation page
   if (isSearching)
     return (
       <div className="my-40 flex flex-col items-center justify-center">
@@ -60,7 +59,7 @@ const Installation = () => {
         </select>
       </div>
 
-      {/* Apps List */}
+      
       <div className="space-y-3">
         {sortItm.map((p) => (
           <div key={p.id} className="p-4 bg-white my-7 shadow-md rounded-lg mx-auto border border-gray-200 w-full">
@@ -109,7 +108,7 @@ const Installation = () => {
                 </div>
               </div>
 
-              {/* Uninstall Button */}
+
               <div className="flex-shrink-0">
                 <button
                   onClick={() => handleremove(p.id)}

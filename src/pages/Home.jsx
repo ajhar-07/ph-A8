@@ -14,7 +14,7 @@ const Home = () => {
 if (loading) return <div className='my-40 flex flex-col items-center justify-center'><span className="loading loading-spinner text-error"></span></div>
   return (
     <div>
-      {/* Hero Section */}
+    
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content text-center">
           <div className="max-w-md">
@@ -47,10 +47,10 @@ if (loading) return <div className='my-40 flex flex-col items-center justify-cen
         </div>
       </div>
 
-      {/* Stats Section */}
+  
       <StatsSection />
 
-      {/* Apps Section */}
+
     
 <div className='flex flex-col mx-auto items-center container'>
   
